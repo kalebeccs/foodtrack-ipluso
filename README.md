@@ -1,43 +1,43 @@
 # FoodTrack
 
-Este projeto é uma simulação de um sistema de pedidos para uma rede de fast food. Ele foi desenvolvido como parte do curso de Programação Orientada a Objetos.
+FoodTrack is a simulation application for a fast food order system. Developed as part of an Object-Oriented Programming course, it demonstrates order management, price calculation, status updates, order deletion, and statistics display. Using Java and Swing for the graphical interface, it also employs enums to represent order states. The application allows for order insertion, updating, and deletion, and provides an overview of order statistics.
 
-## Funcionalidades
+## Features
 
-- Gerenciamento de pedidos
-- Cálculo de preços
-- Listagem de itens do menu
-- Atualização de status dos pedidos
-- Exclusão de pedidos
-- Exibição de estatísticas dos pedidos
+- Order management
+- Price calculation
+- Menu item listing
+- Order status update
+- Order deletion
+- Order statistics display
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - Java
-- Swing para a interface gráfica
-- Enumerações (Enums)
+- Swing for the graphical interface
+- Enumerations (Enums)
 
-## Como Executar
+## How to Run
 
-1. Clone o repositório.
-2. Importe o projeto em sua IDE de preferência.
-3. Compile e execute a classe principal `Main`.
+1. Clone the repository.
+2. Import the project into your preferred IDE.
+3. Compile and run the main class `Main`.
 
-## Estrutura do Projeto
+## Project Structure
 
 ```plaintext
 📁 FoodTrack/
 ├── 📂 src/
-│   ├── 📂 assets/             # Contém os recursos do projeto, como imagens
-│   ├── Main.java              # Classe principal que inicializa o projeto
-│   ├── Interface.java         # Classe responsável pela interface gráfica
-│   ├── ControllerPedido.java  # Classe que gerencia os pedidos
-│   ├── Pedido.java            # Classe que representa um pedido
-│   ├── EstadoPedido.java      # Enumeração que representa os estados de um pedido
-│   └── DataInitializer.java   # Classe responsável por inicializar dados fictícios
-├── README.md                  # Documentação do projeto
+│   ├── 📂 assets/             # Contains project resources, such as images
+│   ├── Main.java              # Main class that initializes the project
+│   ├── Interface.java         # Class responsible for the graphical interface
+│   ├── ControllerPedido.java  # Class that manages orders
+│   ├── Pedido.java            # Class that represents an order
+│   ├── EstadoPedido.java      # Enumeration that represents the states of an order
+│   └── DataInitializer.java   # Class responsible for initializing mock data
+├── README.md                  # Project documentation
 ```
 
 ## Preview
 
-<img src="src/assets/preview.png">
+<img src="src/assets/preview.png" alt="FoodTrack application preview">
