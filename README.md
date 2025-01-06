@@ -1,7 +1,5 @@
 # FoodTrack
 
-## Descrição
-
 Este projeto é uma simulação de um sistema de pedidos para uma rede de fast food. Ele foi desenvolvido como parte do curso de Programação Orientada a Objetos.
 
 ## Funcionalidades
@@ -27,15 +25,18 @@ Este projeto é uma simulação de um sistema de pedidos para uma rede de fast f
 
 ## Estrutura do Projeto
 
-- `src/`: Contém os arquivos fonte do projeto.
-  - `Main.java`: Classe principal que inicializa o projeto.
-  - `Interface.java`: Classe responsável pela interface gráfica.
-  - `ControllerPedido.java`: Classe que gerencia os pedidos.
-  - `Pedido.java`: Classe que representa um pedido.
-  - `EstadoPedido.java`: Enumeração que representa os estados de um pedido.
-  - `DataInitializer.java`: Classe responsável por inicializar dados fictícios.
-- `README.md`: Este arquivo.
-- `src/assets/`: Contém os recursos do projeto, como imagens.
+```plaintext
+📁 FoodTrack/
+├── 📂 src/
+│   ├── 📂 assets/             # Contém os recursos do projeto, como imagens
+│   ├── Main.java              # Classe principal que inicializa o projeto
+│   ├── Interface.java         # Classe responsável pela interface gráfica
+│   ├── ControllerPedido.java  # Classe que gerencia os pedidos
+│   ├── Pedido.java            # Classe que representa um pedido
+│   ├── EstadoPedido.java      # Enumeração que representa os estados de um pedido
+│   └── DataInitializer.java   # Classe responsável por inicializar dados fictícios
+├── README.md                  # Documentação do projeto
+```
 
 ## Preview
 
